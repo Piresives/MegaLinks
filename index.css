@@ -23,9 +23,11 @@ body.blue {
   --primary-color-dark: #00082F;
 }
 
-body.dark-blue {
-  --bg-color: #00082F;
-  --text-color: #FFFFFF;
+body.dark {
+  --bg-color: #000000;
+  --text-color: #ced4da;
+  --primary-color: #343a40;
+  --primary-color-dark: #6c757d;
 }
 
 body.pink {
@@ -36,20 +38,29 @@ body.pink {
 }
 
 body {
-  background: var(--bg-color);
+  background-image: url("./image/fundo2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
   color: var(--text-color);
   font-family: 'Roboto', sans-serif;
 }
 
 .container {
+  background-color: var(--bg-color);
   text-align: center;
   width: 300px;
   margin: 60px auto;
   padding: 15px;
-  border: 5px #00082F;
+  border: 5px #adb5bd;
   border-style: inset;
   border-radius: 10px;
-  box-shadow: 0 0 8em #00082F;
+  box-shadow: 0 0 1.3em #ced4da;
+  transition: .3s;
+}
+
+.container:hover{
+  transform: rotateY(10deg) translatex(-10px);
+  box-shadow: 0  2em #ced4da;
 }
 
 img {
