@@ -38,7 +38,7 @@ body.pink {
 }
 
 body {
-  background-image: url("./image/fundo2.jpg");
+  background-image: url("./image/fundoparallax.jpg");
   background-position: center;
   background-repeat: no-repeat;
   color: var(--text-color);
@@ -46,21 +46,21 @@ body {
 }
 
 .container {
-  background-color: var(--bg-color);
   text-align: center;
   width: 300px;
   margin: 60px auto;
   padding: 15px;
-  border: 5px #adb5bd;
-  border-style: inset;
-  border-radius: 10px;
-  box-shadow: 0 0 1.3em #ced4da;
-  transition: .5s;
-}
 
-.container:hover{
-  transform: rotateY(10deg) translatex(-10px);
-  box-shadow: 0  2em #ced4da;
+  background-color: rgb(225, 225, 225, 0.1);
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  backdrop-filter: blur(1rem);
+  box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0,0.5);
+
+  border-top-color: rgb(225, 225, 225, 0.5);
+  border-right-color: rgb(225, 225, 225, 0.1);
+  border-bottom-color: rgb(225, 225, 225, 0.1);
+  border-left-color: rgb(225, 225, 225, 0.5);
 }
 
 img {
