@@ -16,25 +16,11 @@ html {
   --primary-color-dark: #364FC7; 
 }
 
-body.blue {
-  --bg-color: #276195;
-  --text-color: #ffffff;
-  --primary-color: #efe93f;
-  --primary-color-dark: #00082F;
-}
-
 body.dark {
   --bg-color: #000000;
   --text-color: #ced4da;
-  --primary-color: #343a40;
-  --primary-color-dark: #6c757d;
-}
-
-body.pink {
-  --bg-color: #FFF0F6;
-  --text-color: #1F000B;
-  --primary-color: #D6336C;
-  --primary-color-dark: #A61E4D;
+  --primary-color: #f7d9d9;
+  --primary-color-dark:  #cba3a3;
 }
 
 body {
@@ -137,4 +123,12 @@ footer:hover {
 
 footer a{
   color: var(--text-color);
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
