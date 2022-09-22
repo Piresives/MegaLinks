@@ -31,7 +31,7 @@ window.onload = function() {
                         100
                     ,
                     connectParticles:
-                        true
+                        false
                 }
             }, {
                 breakpoint:
