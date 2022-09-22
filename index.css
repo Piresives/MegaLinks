@@ -22,7 +22,7 @@ body.dark {
   --primary-color: #f7d9d9;
   --primary-color-dark:  #cba3a3;
 }
-
+  
 body {
   background-image: url("./image/fundoparallax.jpg");
   background-position: center;
